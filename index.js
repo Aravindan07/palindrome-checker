@@ -2,7 +2,6 @@ const readlineSync = require('readline-sync');
 const chalk = require('chalk');
 
 let name = readlineSync.question(chalk.cyanBright('May I have your name ?\n\n'));
-console.log(name);
 
 let word = readlineSync.question(chalk.cyanBright("Type a word to check if it is a palindrome or not \n\n"));
 
